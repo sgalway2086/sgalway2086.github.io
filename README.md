@@ -75,3 +75,57 @@ As a potential booker of the band
 
 
 ## Wireframes
+
+### Index Page
+
+#### Large Index Page
+
+![Large Index Page](/assets/wireframes/indexlargescreen.png "Large Index Page")
+
+#### Medium Index Page
+
+![Medium Index Page](/assets/wireframes/indexmediumscreen.png "Medium Index Page")
+
+#### Small Index Page
+
+![Small Index Page](/assets/wireframes/indexsmallscreen.png "Small Index Page")
+
+### Gallery Page
+
+#### Large Gallery Page
+
+![Large Gallery Page](/assets/wireframes/gallerylargescreen.png "Large Gallery Page")
+
+#### Medium Gallery Page
+
+![Medium Gallery Page](/assets/wireframes/gallerymediumscreen.png "Medium Gallery Page")
+
+#### Small Gallery Page
+
+![Small Gallery Page](/assets/wireframes/gallerysmallscreen.png "Small Gallery Page")
+
+### Contact Page
+
+#### Large Contact Page
+
+![Large Contact Page](/assets/wireframes/contactlargescreen.png "Large Contact Page")
+
+#### Medium/Small Contact Page
+
+![Small Contact Page](/assets/wireframes/contactsmallscreen.png "Small Contact Page")
+
+
+
+## Bugs solved
+
+## Credits
+
+### Code
+
+* Google Fonts "Roboto" font was used
+* Varius FontAwesome logos were used in the project
+
+### Media
+
+#### Images
+* All images are screenshots from NBC's "Parks and Recreation"
