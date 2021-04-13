@@ -51,6 +51,19 @@ header{
     transition: .3s;
 }
 
+/*----------Drop Bar (deactivated)---------*/
+
+.drop-bar-button span{
+    display: none;
+}
+
+.drop-bar{
+    display: none;
+}
+
+.drop-bar-option{
+    display: none;
+}
 /*----------footer---------*/
 
 .nav-footer i{
