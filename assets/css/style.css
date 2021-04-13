@@ -295,3 +295,9 @@ iframe{
         width: 96%;
     }
 }
+
+@media screen and (max-width: 800px) and (min-height: 977px){
+    #contact-wrap{
+        padding: 60px 0;
+    }
+}
