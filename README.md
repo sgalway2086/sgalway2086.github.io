@@ -136,12 +136,12 @@ Images would fail to load without any indication of why (Correct file paths, cor
 
 Was previously
             background-image: url("/assets/images/heroimg");
-            <img id="index-album-art" src="/assets/images/album-cover.jpg">
+            src="/assets/images/album-cover.jpg">
 
 Is now
 
             background-image: url("../images/heroimg");
-            <img id="index-album-art" src="./assets/images/album-cover.jpg">
+            src="./assets/images/album-cover.jpg">
 
 
 ## Credits
