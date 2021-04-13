@@ -118,7 +118,7 @@ As a potential booker of the band
 
 ## Bugs solved
 
-###Header ordering issue
+### Header ordering issue
 The header was loading the anchor links in the wrong order, so I reversed the order they were placed in.
 
 Was previously
@@ -130,6 +130,9 @@ Is now
             <a class=" header-a-box large-resolution-header" href="contact.html">Contact us</a>
             <a class=" header-a-box large-resolution-header" href="gallery.html">Gallery</a>
             <a class=" header-a-box large-resolution-header" href="index.html">Home</a>
+
+### Images not rendering issue
+Images would fail to load without any indication of why (Correct file paths, correctly written names etc)
 
 ## Credits
 
