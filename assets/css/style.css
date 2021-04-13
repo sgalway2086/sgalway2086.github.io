@@ -301,3 +301,69 @@ iframe{
         padding: 60px 0;
     }
 }
+
+@media screen and (max-width: 770px){
+    #gallery-column{
+        column-count: 2;
+    }
+
+    .large-resolution-header{
+        display: none;
+    }
+
+    .nav-header{
+        height: 0px;
+        width: 0px;
+    }
+
+    .drop-bar-button span{
+        display: block;
+    }
+
+    /*----------Drop Bar---------*/
+
+    .drop-bar-option{
+        font-size: 24px;
+        padding: 10px 5px 0px 5px;
+        background-color: #f2f2f2;
+    }
+
+    .drop-bar-button{
+        width: 50px;
+        font-size: 30px;
+        padding-left: 10px;
+        position: absolute;
+        top: 9px;
+        right: 5px;
+        float: left;
+    }
+
+    .drop-bar-button i{
+        color: #fafafa;
+        margin-top: 5px;
+    }
+
+    span:hover .header-fa{
+        background-color: #ff1a1a;
+    }
+
+    .drop-bar-button:hover .drop-bar{
+        width: 150px;
+        height: 160px;
+        display: inline-block;
+    }
+
+    .drop-bar-button:hover .drop-bar-option{
+        width: 150px;
+        height: 40px;
+        display: block;
+        position: relative;
+        top: 12px;
+        right: 105px;
+        float: left;
+    }
+
+    .drop-bar-option:hover{
+        background-color: #cccccc;
+    }
+}

@@ -143,6 +143,27 @@ Is now
             background-image: url("../images/heroimg");
             src="./assets/images/album-cover.jpg">
 
+### Page shortness on contact page
+The page was slightly too short on a specific screen size (ipad pro vertical)
+
+Added 
+        @media screen and (max-width: 800px) and (min-height: 977px){
+            #contact-wrap{
+                padding: 60px 0;
+            }
+        }
+
+### Error with <i> formatting in small screen
+The two icons appeared seperately but it was a small formatting error
+
+was 
+
+            <i class="fas fa-bars header-fa"></i>
+            <i class="fas fa-caret-down header-fa"></i>
+
+Is now
+
+        <i class="fas fa-bars header-fa"></i><i class="fas fa-caret-down header-fa"></i>
 
 ## Credits
 
