@@ -250,6 +250,10 @@ iframe{
     padding: 60px 0;
 }
 
+.text-area-small{
+    display: none;
+}
+
 /*----------Media Queries---------*/
 
 @media screen and (max-width: 1280px){
@@ -365,5 +369,72 @@ iframe{
 
     .drop-bar-option:hover{
         background-color: #cccccc;
+    }
+}
+
+@media screen and (max-width: 550px){
+    iframe{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 490px){
+    #gallery-column{
+        column-count: 1;
+    }
+
+    .text-area-small{
+        display: block;
+    }
+
+    .text-area-medium{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 410px){
+    #index-album-art{
+        width: 90%;
+        height: auto;
+        margin: 0% 5%;
+    }
+
+    #spotify-button{
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    #apple-music-button{
+        width: 45%;
+    }
+    
+    iframe{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #contact{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    #header-title{
+        font-size: 40px;
+        position: relative;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #spotify-button{
+        font-size: 16px;
+        height: 26px;
+    }
+
+    #apple-music-button{
+        font-size: 16px;
+        height: 26px;
     }
 }
