@@ -198,3 +198,18 @@ iframe{
 #apple-music-button:hover{
     background-color: #fc1d24;
 }
+
+/*----------Gallery---------*/
+
+.gallery-image{
+    width: 100%;
+}
+
+#gallery-column{
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery-title{
+    padding-left: 10px;
+}
