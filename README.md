@@ -118,7 +118,18 @@ As a potential booker of the band
 
 ## Bugs solved
 
+###Header ordering issue
+The header was loading the anchor links in the wrong order, so I reversed the order they were placed in.
 
+Was previously
+            <a class=" header-a-box large-resolution-header" href="index.html">Home</a>
+            <a class=" header-a-box large-resolution-header" href="gallery.html">Gallery</a>
+            <a class=" header-a-box large-resolution-header" href="contact.html">Contact us</a>
+
+Is now
+            <a class=" header-a-box large-resolution-header" href="contact.html">Contact us</a>
+            <a class=" header-a-box large-resolution-header" href="gallery.html">Gallery</a>
+            <a class=" header-a-box large-resolution-header" href="index.html">Home</a>
 
 ## Credits
 
