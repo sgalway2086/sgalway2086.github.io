@@ -300,9 +300,21 @@ iframe{
     }
 }
 
-@media screen and (max-width: 800px) and (min-height: 977px){
+@media screen and (min-height: 907px){
     #contact-wrap{
         padding: 60px 0;
+    }
+}
+
+@media screen and (min-height: 967px){
+    #contact-wrap{
+        padding: 90px 0;
+    }
+}
+
+@media screen and (min-height: 1027px){
+    #contact-wrap{
+        padding: 120px 0;
     }
 }
 

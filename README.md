@@ -80,39 +80,39 @@ As a potential booker of the band
 
 #### Large Index Page
 
-![Large Index Page](/assets/wireframes/indexlargescreen.png "Large Index Page")
+![Large Index Page](/documentation/wireframes/indexlargescreen.png "Large Index Page")
 
 #### Medium Index Page
 
-![Medium Index Page](/assets/wireframes/indexmediumscreen.png "Medium Index Page")
+![Medium Index Page](/documentation/wireframes/indexmediumscreen.png "Medium Index Page")
 
 #### Small Index Page
 
-![Small Index Page](/assets/wireframes/indexsmallscreen.png "Small Index Page")
+![Small Index Page](/documentation/wireframes/indexsmallscreen.png "Small Index Page")
 
 ### Gallery Page
 
 #### Large Gallery Page
 
-![Large Gallery Page](/assets/wireframes/gallerylargescreen.png "Large Gallery Page")
+![Large Gallery Page](/documentation/wireframes/gallerylargescreen.png "Large Gallery Page")
 
 #### Medium Gallery Page
 
-![Medium Gallery Page](/assets/wireframes/gallerymediumscreen.png "Medium Gallery Page")
+![Medium Gallery Page](/documentation/wireframes/gallerymediumscreen.png "Medium Gallery Page")
 
 #### Small Gallery Page
 
-![Small Gallery Page](/assets/wireframes/gallerysmallscreen.png "Small Gallery Page")
+![Small Gallery Page](/documentation/wireframes/gallerysmallscreen.png "Small Gallery Page")
 
 ### Contact Page
 
 #### Large Contact Page
 
-![Large Contact Page](/assets/wireframes/contactlargescreen.png "Large Contact Page")
+![Large Contact Page](/documentation/wireframes/contactlargescreen.png "Large Contact Page")
 
 #### Medium/Small Contact Page
 
-![Small Contact Page](/assets/wireframes/contactsmallscreen.png "Small Contact Page")
+![Small Contact Page](/documentation/wireframes/contactsmallscreen.png "Small Contact Page")
 
 
 
@@ -143,8 +143,8 @@ Is now
             background-image: url("../images/heroimg");
             src="./assets/images/album-cover.jpg">
 
-### Page shortness on contact page
-The page was slightly too short on a specific screen size (ipad pro vertical)
+### Page shortness on contact page 
+The page was slightly too short on a specific screen size (ipad pro vertical) **updated to be general rule**
 
 Added 
         @media screen and (max-width: 800px) and (min-height: 977px){
