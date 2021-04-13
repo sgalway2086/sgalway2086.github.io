@@ -64,6 +64,7 @@ header{
 .drop-bar-option{
     display: none;
 }
+
 /*----------footer---------*/
 
 .nav-footer i{
@@ -98,4 +99,15 @@ footer{
 .footer-a-box:hover{
     color: #2abef4;
     transition: 0.3s;
+}
+
+/*----------Index---------*/
+
+#heroimage{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/assets/images/heroimg.jpg");
+    background-size: cover;
+    overflow: hidden;
+    display: block;
 }
