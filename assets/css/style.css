@@ -106,7 +106,7 @@ footer{
 #heroimage{
     height: 100vh;
     width: 100vw;
-    background-image: url("/assets/images/heroimg.jpg");
+    background-image: url("../images/heroimg.jpg");
     background-size: cover;
     overflow: hidden;
 }

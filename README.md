@@ -132,7 +132,17 @@ Is now
             <a class=" header-a-box large-resolution-header" href="index.html">Home</a>
 
 ### Images not rendering issue
-Images would fail to load without any indication of why (Correct file paths, correctly written names etc)
+Images would fail to load without any indication of why (Correct file paths, correctly written names etc). The problem was the specifity of the file paths
+
+Was previously
+            background-image: url("/assets/images/heroimg");
+            <img id="index-album-art" src="/assets/images/album-cover.jpg">
+
+Is now
+
+            background-image: url("../images/heroimg");
+            <img id="index-album-art" src="./assets/images/album-cover.jpg">
+
 
 ## Credits
 
