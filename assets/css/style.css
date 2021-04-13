@@ -110,3 +110,91 @@ footer{
     background-size: cover;
     overflow: hidden;
 }
+
+/*----------Index Information---------*/
+
+#index-information{
+    overflow: hidden;
+}
+
+#index-bio{
+    width: 63%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #e6e6e6;
+    float: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/*----------Index Video Content---------*/
+
+#index-video-content{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #e6e6e6;
+    float: left;
+}
+
+iframe{
+    width: 90%;
+    height: 300px;
+    margin: 0% 5% 5% 5%;
+}
+
+/*----------Index music links---------*/
+
+#index-music-links{
+    width: 29%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    background-color: #e6e6e6;
+}
+
+#index-album-art{
+    width: 70%;
+    height: auto;
+    margin: 0% 15%;
+}
+
+#spotify-button i, #apple-music-button i{
+    color: #fafafa;
+}
+
+#spotify-button{
+    display: block;
+    font-size: 20px;
+    width: 35%;
+    height: 30px;
+    padding: 7px 0 3px 0;
+    background-color: #1DB954;
+    color: #fafafa;
+    text-align: center;
+    float: left;
+    margin-left: 15%;
+}
+
+#spotify-button:hover{
+    background-color: #189a46;
+}
+
+#apple-music-button{
+    display: block;
+    font-size: 20px;
+    width: 35%;
+    height: 30px;
+    padding: 7px 0 3px 0;
+    background-color: #fc3c44;
+    color: #fafafa;
+    text-align: center;
+    float: left;
+}
+
+#apple-music-button:hover{
+    background-color: #fc1d24;
+}
