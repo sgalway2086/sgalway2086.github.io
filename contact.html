@@ -30,7 +30,29 @@
         </nav>
     </header>
     <section>
-
+        <div id="contact-wrap">
+            <form id="contact">
+                <h2 class="uppercase"></h2><br><br>
+                <h3>Purpose of Contact</h3><br>
+                <input type="radio" id="gig-booking" name="message-purpose" value="gig-booking">
+                <label for="gig-booking">Booking Mouse Rat</label><br>
+                <input type="radio" id="fan-mail" name="message-purpose" value="fan-mail">
+                <label for="fan-mail">Fan Mail</label><br>
+                <input type="radio" id="order-merchandise" name="message-purpose" value="order-merchandise">
+                <label for="order-merchandise">Order Merchandise</label><br><br>
+                <h3>Add Message</h3>
+                <textarea class="text-area-medium" name="add-message" rows="18" cols="60"></textarea><br>
+                <textarea class="text-area-small" name="add-message" rows="9" cols="30"></textarea><br>
+                <h3>Contact Details</h3><br>
+                <label for="name">Name</label>
+                <input class="contact-details-information" id="name" type="text" required>
+                <label for="surname">Surname</label>
+                <input class="contact-details-information" id="surname" type="text" required>
+                <label for="email">Email address</label>
+                <input class="contact-details-information" id="email" type="email" required><br><br>
+                <input id="form-submit-button" type="submit"><br>
+            </form>
+        </div>
     </section>
     <footer>
         <nav class="nav-footer">
