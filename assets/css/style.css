@@ -39,7 +39,6 @@ header{
     margin-right: 20px;
     text-align: center;
     padding-top: 5px;
-    border: solid 1px;
 }
 
 .header-a-box{
@@ -81,7 +80,6 @@ header{
     border-radius: 50%;
     float: right;
     margin: 10px 15px;
-    border: solid 1px;
     color: #fafafa;
 }
 
@@ -96,11 +94,6 @@ footer{
     transition: 0.3s;
 }
 
-.footer-a-box:hover{
-    color: #2abef4;
-    transition: 0.3s;
-}
-
 /*----------Index---------*/
 
 #heroimage{
@@ -109,12 +102,14 @@ footer{
     background-image: url("../images/heroimg.jpg");
     background-size: cover;
     overflow: hidden;
+    box-shadow: inset 0 0 0 1000px rgba(12, 25, 22, .6);
 }
 
 /*----------Index Information---------*/
 
 #index-information{
     overflow: hidden;
+    background-color: #fafafa;
 }
 
 #index-bio{
@@ -123,6 +118,7 @@ footer{
     padding: 1%;
     background-color: #e6e6e6;
     float: right;
+    box-shadow: 2px 4px 5px;
 }
 
 ul{
@@ -138,6 +134,7 @@ ul{
     padding: 1%;
     background-color: #e6e6e6;
     float: left;
+    box-shadow: 2px 4px 5px;
 }
 
 iframe{
@@ -154,6 +151,7 @@ iframe{
     padding: 1%;
     float: left;
     background-color: #e6e6e6;
+    box-shadow: 2px 4px 5px;
 }
 
 #index-album-art{
@@ -208,6 +206,7 @@ iframe{
 #gallery-column{
     column-count: 4;
     column-gap: 0px;
+    background-color: #fafafa;
 }
 
 #gallery-title{
@@ -277,6 +276,24 @@ iframe{
     }
 }
 
+@media screen and (min-height: 907px){
+    #contact-wrap{
+        padding: 60px 0;
+    }
+}
+
+@media screen and (min-height: 967px){
+    #contact-wrap{
+        padding: 90px 0;
+    }
+}
+
+@media screen and (min-height: 1027px){
+    #contact-wrap{
+        padding: 120px 0;
+    }
+}
+
 @media screen and (max-width: 800px){
     .contact-details-information{
         display: block;
@@ -298,23 +315,9 @@ iframe{
     #index-video-content{
         width: 96%;
     }
-}
 
-@media screen and (min-height: 907px){
-    #contact-wrap{
-        padding: 60px 0;
-    }
-}
-
-@media screen and (min-height: 967px){
-    #contact-wrap{
-        padding: 90px 0;
-    }
-}
-
-@media screen and (min-height: 1027px){
-    #contact-wrap{
-        padding: 120px 0;
+    #index-bio, #index-video-content, #index-music-links{
+        margin-bottom: 10px;
     }
 }
 
