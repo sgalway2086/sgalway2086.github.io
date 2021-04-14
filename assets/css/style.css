@@ -105,6 +105,26 @@ footer{
     box-shadow: inset 0 0 0 1000px rgba(12, 25, 22, .6);
 }
 
+#call-to-action{
+    color: #fafafa;
+    margin: auto;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 30vh;
+}
+
+#call-to-action h1, #call-to-action a{
+    color: #fafafa;
+}
+
+#call-to-action h1{
+    font-size: 300%;
+}
+
+#call-to-action a:hover{
+    text-decoration: underline;
+}
+
 /*----------Index Information---------*/
 
 #index-information{
@@ -391,6 +411,9 @@ iframe{
     iframe{
         height: 300px;
     }
+    #call-to-action h1{
+        font-size: 250%;
+    }
 }
 
 @media screen and (max-width: 490px){
@@ -425,6 +448,10 @@ iframe{
     
     iframe{
         height: 200px;
+    }
+
+    #call-to-action h1{
+        font-size: 200%;
     }
 }
 
