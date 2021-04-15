@@ -197,20 +197,44 @@ The index page was tested first by checking the call to action on the hero image
 well as creating an underline effect when hovered over. After successfully going to the div, I checked all the external links on the page, 
 ensuring that the links to spotify and apple music had functional links that opened seperate tabs.For the mobile friendly versions of the site 
 it was important to ensure that all the divs moved as intended, and I checked they changed position without issue and correctly to prevent any 
-sort of distortions within the page. The hover function on the music links functioned well
+sort of distortions within the page. The hover function on the music links functioned well.
+
+![Index Test](/documentation/tests/heroimage.PNG "Index Test")
+
+![Index Bio Test](/documentation/tests/index.PNG "Index Bio Test")
+
+##### Smaller screen
+
+![Index Small Bio Test](/documentation/tests/indexsmall.PNG "Index Small Bio Test")
 
 #### Gallery
 The gallery page was tested primarily by changing the size of the display size to ensure the columns worked. Ensuring correct scrolling and 
 movement of the images within the columns was crucial to an ideal user experience. The 4 sizes for various resolutions all functioned very
 satisfactorily 
 
+![Gallery test](/documentation/tests/gallery1.PNG "Gallery test")
+
+##### Smaller screen
+
+![Gallery small test](/documentation/tests/gallery2.PNG "Gallery small test")
+
 #### Contact Page
 The contact page was tested, as with the previous two, by adjusting the screen size to ensure the layout would be suitable on all resolutions.
 The forms functions (the inputs and submit button) all functioned as intended. The hover function on the submit form worked as intended.
 
+![Contact test](/documentation/tests/contact.PNG "Contact test")
+
+##### Smaller screen
+
+![Contact small test](/documentation/tests/contact2.PNG "Contact small test")
+
 ### HTML/CSS Validating
 After testing the site thoroughly to ensure ideal function, the HTML and CSS was in need of testing. After some mild adjustments, all pages 
 passed validation without issue
+
+### Drop bar
+The drop bar functioned very well, and changed to fit when the media query activates. It switched seemlessly from the large contact bar to the 
+drop bar.
 
 #### Index Page validation
 
