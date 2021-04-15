@@ -1,6 +1,6 @@
 # Milestone-1-Project
 
-##UX
+## UX
 
 ### Project Goals
 
@@ -153,7 +153,7 @@ Added
             }
         }
 
-### Error with <i> formatting in small screen
+### Error with i element formatting on drop bar
 The two icons appeared seperately but it was a small formatting error
 
 was 
@@ -164,6 +164,99 @@ was
 Is now
 
         <i class="fas fa-bars header-fa"></i><i class="fas fa-caret-down header-fa"></i>
+
+### Error with padding sizes on contact page
+The padding was often too small to fill the screen and would leave a white portion at the botton under the header. A height increase fixed the problem
+
+from
+        padding: 30px 0;
+
+To
+        padding: 60px 0;
+
+### Gallery distortion error
+When the gallery section was divided in 2 columns, it was compressed into the left quarter of the screen without any explanation. 
+However, it turned out the large scale nav bar, despite not being visible, was pushing the two columns to the left so a media query was
+placed to set it to take up no space when invisible.
+
+        nav-header{
+            height: 0;
+            width: 0;
+        }
+
+## Testing
+
+### Site Function Testing
+
+#### Header and Footer
+The header and footer were tested first, on all three of the html pages, ensuring the transition effect and the links all functioned correctly 
+on each of the pages.
+
+#### Index Page
+The index page was tested first by checking the call to action on the hero image was functional and lead to the information section as
+well as creating an underline effect when hovered over. After successfully going to the div, I checked all the external links on the page, 
+ensuring that the links to spotify and apple music had functional links that opened seperate tabs.For the mobile friendly versions of the site 
+it was important to ensure that all the divs moved as intended, and I checked they changed position without issue and correctly to prevent any 
+sort of distortions within the page. The hover function on the music links functioned well
+
+#### Gallery
+The gallery page was tested primarily by changing the size of the display size to ensure the columns worked. Ensuring correct scrolling and 
+movement of the images within the columns was crucial to an ideal user experience. The 4 sizes for various resolutions all functioned very
+satisfactorily 
+
+#### Contact Page
+The contact page was tested, as with the previous two, by adjusting the screen size to ensure the layout would be suitable on all resolutions.
+The forms functions (the inputs and submit button) all functioned as intended. The hover function on the submit form worked as intended.
+
+### HTML/CSS Validating
+After testing the site thoroughly to ensure ideal function, the HTML and CSS was in need of testing. After some mild adjustments, all pages 
+passed validation without issue
+
+#### Index Page validation
+
+![Index Validation](/documentation/tests/indexpagecheck.PNG "Index Validation")
+
+#### Gallery Page validation
+
+![Gallery Validation](/documentation/tests/indexpagecheck.PNG "Gallery Validation")
+
+
+#### Contact Page validation
+
+![Contact Validation](/documentation/tests/contactpagecheck.PNG "Contact Validation")
+
+
+#### CSS validation
+
+![CSS Validation](/documentation/tests/csscheck.PNG "CSS Validation")
+
+
+
+### Lighthouse Testing
+
+#### Index Page (desktop)
+
+![Index Desktop Lighthouse Check](/documentation/tests/indexdesktoplighthouse.PNG "Index Desktop Validation")
+
+#### Index Page (mobile)
+
+![Index Mobile Lighthouse Check](/documentation/tests/indexmobilelighthouse.PNG "Index Mobile Lighthouse Check")
+
+#### Gallery Page (desktop)
+
+![Gallery Desktop Lighthouse Check](/documentation/tests/gallerydesktoplighthouse.PNG "Gallery Desktop Lighthouse Check")
+
+#### Gallery Page (mobile)
+
+![Gallery Mobile Lighthouse Check](/documentation/tests/gallerymobilelighthouse.PNG "Gallery Mobile Lighthouse Check")
+
+#### Contact Page (desktop)
+
+![Contact Desktop Lighthouse Check](/documentation/tests/contactdesktoplighthouse.PNG "Contact Desktop Lighthouse Check")
+
+#### Contact Page (mobile)
+
+![Contact Mobile Lighthouse Check](/documentation/tests/contactmobilelighthouse.PNG "Contact Mobile Lighthouse Check")
 
 ## Credits
 
