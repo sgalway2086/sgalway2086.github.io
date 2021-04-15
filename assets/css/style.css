@@ -99,6 +99,7 @@ footer{
 #heroimage{
     height: 100vh;
     width: 100vw;
+    max-width: 100vw;
     background-image: url("../images/heroimg.jpg");
     background-size: cover;
     overflow: hidden;
@@ -110,7 +111,7 @@ footer{
     margin: auto;
     text-align: center;
     font-size: 200%;
-    margin-top: 30vh;
+    margin-top: 40vh;
 }
 
 #call-to-action h1, #call-to-action a{
@@ -142,7 +143,7 @@ footer{
     padding: 1%;
     background-color: #e6e6e6;
     float: right;
-    box-shadow: 2px 4px 5px;
+    box-shadow: 1px 2px 2px;
 }
 
 ul{
@@ -158,7 +159,7 @@ ul{
     padding: 1%;
     background-color: #e6e6e6;
     float: left;
-    box-shadow: 2px 4px 5px;
+    box-shadow: 1px 2px 2px;
 }
 
 iframe{
@@ -175,7 +176,7 @@ iframe{
     padding: 1%;
     float: left;
     background-color: #e6e6e6;
-    box-shadow: 2px 4px 5px;
+    box-shadow: 1px 2px 2px;
 }
 
 #index-album-art{
@@ -281,8 +282,13 @@ iframe{
     float: left;
     text-align: center;
     font-size: 500%;
+}
+
+#contact-title-wrap{
+    width: 500px;
+    margin-left: 10vw;
     margin-top: 20vh;
-    margin-left: 20px;
+    float: left;
 }
 
 /*----------Media Queries---------*/
@@ -302,32 +308,60 @@ iframe{
     }
 }
 
-@media screen and (max-width: 1200px){
-    #gallery-column{
-        column-count: 3;
-    }
-    #contact{
-        margin-right: 5%;
-    }
-}
 
-@media screen and (max-width: 1137px){
+@media screen and (max-width: 1380px){
+    #contact-title-wrap{
+        width: 450px;
+    }
+
     #contact-title{
         font-size: 450%;
-        margin-top: 20%;
     }
 }
 
-@media screen and (max-width: 1090px){
+@media screen and (max-width: 1280px){
+    #contact-title-wrap{
+        width: 400px;
+    }
+
     #contact-title{
         font-size: 400%;
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
+    #gallery-column{
+        column-count: 3;
+    }
+
+    #contact{
+        margin-right: 5%;
+    }
+
+    #contact-title-wrap{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    #contact-title-wrap{
+        width: 350px;
+    }
+
     #contact-title{
+        font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #contact-title-wrap{
         width: 100%;
         margin: 0;
+    }
+
+    #contact-title{
+        text-align: center;
+        float: none;
     }
 
     #contact{
