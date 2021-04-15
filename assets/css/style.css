@@ -121,6 +121,10 @@ footer{
     font-size: 300%;
 }
 
+#call-to-action a{
+    font-size: 80%;
+}
+
 #call-to-action a:hover{
     text-decoration: underline;
 }
@@ -237,13 +241,13 @@ iframe{
 
 #contact{
     max-width: 740px;
-    margin: auto;
+    min-height: 518px;
+    margin-right: 10%;
+    float: right;
     border: solid 1px;
     padding: 30px;
-}
-
-#contact h2{
-    text-align: center;
+    background-color: #fafafa;
+    box-shadow: 2px 4px 5px;
 }
 
 #form-submit-button{
@@ -273,6 +277,14 @@ iframe{
     display: none;
 }
 
+#contact-title{
+    float: left;
+    text-align: center;
+    font-size: 350%;
+    margin-top: 20vh;
+    margin-left: 20px;
+}
+
 /*----------Media Queries---------*/
 
 @media screen and (max-width: 1280px){
@@ -294,23 +306,73 @@ iframe{
     #gallery-column{
         column-count: 3;
     }
+    #contact{
+        margin-right: 5%;
+    }
 }
 
-@media screen and (min-height: 907px){
+@media screen and (max-width: 1137px){
+    #contact-title{
+        font-size: 300%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    #contact-title{
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #contact-title{
+        width: 100%;
+        margin: 0;
+    }
+
+    #contact{
+        float: none;
+        margin: 0 auto;
+    }
+
+    form{
+        display: inline-block;
+        text-align: left;
+    }
+
+    #contact-wrap{
+        padding-top:0;
+        text-align: center;
+    }
+}
+
+@media screen and (min-height: 867px){
     #contact-wrap{
         padding: 60px 0;
     }
 }
 
-@media screen and (min-height: 967px){
+@media screen and (min-height: 927px){
     #contact-wrap{
         padding: 90px 0;
     }
 }
 
-@media screen and (min-height: 1027px){
+@media screen and (min-height: 987px){
     #contact-wrap{
         padding: 120px 0;
+    }
+}
+
+@media screen and (min-height: 1047px){
+    #contact-wrap{
+        padding: 150px 0;
+    }
+}
+
+@media screen and (min-height: 1087px){
+    #contact-wrap{
+        padding: 180px 0;
     }
 }
 
@@ -321,7 +383,6 @@ iframe{
 
     #contact{
         border: none;
-        padding: 0 30px;
     }
 
     #contact-wrap{
@@ -451,6 +512,10 @@ iframe{
     }
 
     #call-to-action h1{
+        font-size: 200%;
+    }
+
+    #contact-title{
         font-size: 200%;
     }
 }
