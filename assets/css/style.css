@@ -348,31 +348,31 @@ iframe{
 
 @media screen and (min-height: 867px){
     #contact-wrap{
-        padding: 60px 0;
+        padding: 90px 0;
     }
 }
 
 @media screen and (min-height: 927px){
     #contact-wrap{
-        padding: 90px 0;
+        padding: 120px 0;
     }
 }
 
 @media screen and (min-height: 987px){
     #contact-wrap{
-        padding: 120px 0;
+        padding: 150px 0;
     }
 }
 
 @media screen and (min-height: 1047px){
     #contact-wrap{
-        padding: 150px 0;
+        padding: 180px 0;
     }
 }
 
 @media screen and (min-height: 1087px){
     #contact-wrap{
-        padding: 180px 0;
+        padding: 210px 0;
     }
 }
 
