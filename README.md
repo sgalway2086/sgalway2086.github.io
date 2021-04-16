@@ -194,14 +194,38 @@ are impressed with the other media on the website.
 
 # Further testing
 
-* site tested on various desktop sizes and on google chrome, opera and 
+* site tested on two desktops, and on various browsers such as Google Chrome, Firefox, Opera and Internet Explorer.
+* The site was tested on 4 seperate Android devices and functioned exactly as intended
+* Each link was checked on each version of the site, and everything worked perfectly regardless of platform.
+* Others were asked for opinions and to test the website.
 
 # Deployment
 
+## Github Pages
+The project was deployed to github pages like so:
 
+1. First step is to log into Github and go to the required repository.
+2. At the top of the repository, click on the settings button
+3. Next is to scroll down the settings page until reaching "Github Pages" then click it
+4. Under "source", go onto the dropdown then click on "none" and then "master branch"
+5. The page automatically refreshes, then scroll back through the page to find the site link
 
+## Forking the repository
+Forking the repository creates an alternative copy to edit without altering the original
 
+1. Logged into Github, locate the desired repository
+2. At the top of the repository, click on "fork"
+3. A copy will now be created in your github accounted
 
+## Creating a local copy
+
+1. Log in to Github and locate the repository
+2. Under the repository name, click on " clone or download"
+3. To clone with https, select the "clone with HTTPS" option
+4. Open Git bash
+5. Change the current working directory to the location of the cloned directorys desired created location
+6. Type "git clone" then paste the link from step 3.
+7. Hit enter, then it will be created
 
 # Bugs solved
 
@@ -273,7 +297,14 @@ placed to set it to take up no space when invisible.
 
 # Credits
 
+## content
+
+* All code written by Stephen Galway
+
 ## Media
 
-### Images
 * All images are screenshots from NBC's "Parks and Recreation"
+
+## Acknowlegements
+
+* My mentor Aaron for providing many valuable insights on improving the website
